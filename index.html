@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Studio Aura | Onde o Luxo Encontra a Alma</title>
+  <meta name="description" content="Studio Aura, design de interiores de alto padrao em Sao Paulo. Agende uma consulta exclusiva com Marina Vasconcelos.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="src/css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#inicio" class="brand">Studio <span>Aura</span></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu" aria-expanded="false">+</button>
+      <nav class="nav" id="siteNav">
+        <a href="#inicio">Inicio</a>
+        <a href="#processo">Processo</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#contato">Contato</a>
+      </nav>
+      <a class="btn btn-ghost" href="#contato">Agendar</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio" data-scroll-zone>
+      <video autoplay muted loop playsinline data-scroll-scrub>
+        <source src="src/assets/interior-dark-video.mp4" type="video/mp4">
+      </video>
+      <div class="hero-content reveal">
+        <p class="kicker">Studio Aura | Sao Paulo</p>
+        <h1 class="title title-lg">Onde o Luxo<br>Encontra a Alma</h1>
+        <p>
+          Projetos autorais de interiores para clientes que buscam sofistica&ccedil;&atilde;o,
+          conforto e uma assinatura estetica inconfundivel.
+        </p>
+        <a href="#contato" class="btn btn-primary">Agende uma consulta exclusiva</a>
+        <div class="divider-line"></div>
+      </div>
+    </section>
+
+    <section class="section reveal" id="processo">
+      <div class="container">
+        <p class="kicker">Nossa Essencia em 3 etapas</p>
+        <h2 class="title title-md" style="margin:0.6rem 0 1.6rem;">Conceito, Curadoria e Execucao com precisao absoluta</h2>
+      </div>
+      <div class="video-wrap full-bleed">
+        <video id="processVideo" muted playsinline preload="metadata">
+          <source src="src/assets/video-camadas.mp4" type="video/mp4">
+        </video>
+      </div>
+      <div class="container">
+        <div class="steps steps-inline">
+          <article class="step">
+            <strong>01. Conceito</strong>
+            <h3 class="title title-sm">Leitura profunda de estilo e rotina</h3>
+            <p class="muted">Traduzimos aspiracoes, referencias e contexto arquitetonico em uma narrativa estetica consistente.</p>
+          </article>
+          <article class="step">
+            <strong>02. Curadoria</strong>
+            <h3 class="title title-sm">Selecao de materiais, arte e mobiliario</h3>
+            <p class="muted">Combinamos pecas autorais, texturas nobres e iluminacao para criar atmosfera sofisticada e acolhedora.</p>
+          </article>
+          <article class="step">
+            <strong>03. Execucao</strong>
+            <h3 class="title title-sm">Gestao rigorosa ate o ultimo detalhe</h3>
+            <p class="muted">Acompanhamos obra e instalacao para garantir fidelidade total ao conceito e acabamento impecavel.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section reveal" id="portfolio" style="padding-top: 3rem;">
+      <div class="container">
+        <p class="kicker">Projetos selecionados</p>
+        <h2 class="title title-md" style="margin:0.6rem 0 1.2rem;">Curadoria de Espacos</h2>
+        <p class="muted" style="max-width:640px;">Um recorte de ambientes desenvolvidos para residencias e projetos boutique com assinatura Studio Aura.</p>
+        <div class="portfolio-grid">
+          <article class="portfolio-card">
+            <img src="src/assets/projeto-sala.png" alt="Projeto de sala de estar em tons neutros">
+            <div class="overlay"><h3>Residencia Alvorada</h3></div>
+          </article>
+          <article class="portfolio-card">
+            <img src="src/assets/projeto-cozinha.png" alt="Projeto de cozinha de alto padrao">
+            <div class="overlay"><h3>Cozinha Gourmet Noir</h3></div>
+          </article>
+          <article class="portfolio-card">
+            <img src="src/assets/projeto-quarto.png" alt="Projeto de quarto sofisticado com iluminacao suave">
+            <div class="overlay"><h3>Suite Atmosfera</h3></div>
+          </article>
+          <article class="portfolio-card">
+            <img src="src/assets/projeto-sala-2.png" alt="Projeto de sala de jantar com materiais naturais">
+            <div class="overlay"><h3>Casa Horizonte</h3></div>
+          </article>
+          <article class="portfolio-card">
+            <img src="src/assets/projeto-biblioteca.png" alt="Biblioteca residencial planejada">
+            <div class="overlay"><h3>Biblioteca Privada</h3></div>
+          </article>
+          <article class="portfolio-card">
+            <img src="src/assets/projeto-banheiro.png" alt="Banheiro de luxo em pedra natural">
+            <div class="overlay"><h3>Banho Esculpido</h3></div>
+          </article>
+          <article class="portfolio-card">
+            <img src="src/assets/projeto-terracota.png" alt="Ambiente interno com paleta terracota">
+            <div class="overlay"><h3>Lounge Terracota</h3></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section about reveal" id="sobre">
+      <div class="container about-grid">
+        <div class="about-photo">
+          <img src="data:image/jpeg;base64,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" alt="Mulher empreendedora em retrato editorial profissional">
+          <img class="profile-photo" src="https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?auto=format&fit=crop&w=1400&q=95" alt="Mulher empreendedora em retrato editorial profissional">
+        </div>
+        <div>
+          <p class="kicker" style="color:#8f7426;">A Visionaria</p>
+          <h2 class="title title-md" style="margin:0.6rem 0 1rem;">Marina Vasconcelos</h2>
+          <p style="color:#48443c; margin-bottom:0.8rem;">
+            Arquiteta com especializacao em Milao, Marina conduz o Studio Aura com a premissa
+            de unir a sobriedade de uma galeria de arte com a hospitalidade de um hotel boutique.
+          </p>
+          <p style="color:#48443c;">
+            Cada projeto nasce de uma escuta sensivel e evolui para ambientes com identidade,
+            fluidez e elegancia atemporal.
+          </p>
+          <div class="cities">
+            <span>Milao</span>
+            <span>Paris</span>
+            <span>Sao Paulo</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section testimonials reveal" aria-label="Depoimentos de clientes">
+      <div class="container">
+        <p class="kicker">Vozes de clientes</p>
+        <h2 class="title title-md" style="margin:0.6rem 0 1.2rem;">Confianca validada por experiencias reais</h2>
+        <div class="testimonial-grid">
+          <article class="quote-card">
+            <p>"A cobertura ganhou linguagem propria. O resultado final foi refinado, funcional e impecavelmente executado."</p>
+            <small>Ricardo S. | CEO Tech</small>
+          </article>
+          <article class="quote-card">
+            <p>"Nao recebemos apenas um projeto: recebemos uma nova forma de viver e receber, com autenticidade e calor."</p>
+            <small>Helena M. | Colecionadora de Arte</small>
+          </article>
+          <article class="quote-card">
+            <p>"A curadoria de materiais e iluminacao elevou o espaco sem excessos. Luxo discreto exatamente como queriamos."</p>
+            <small>Andre V. | Arquiteto</small>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact reveal" id="contato">
+      <div class="container">
+        <p class="kicker" style="color:#8f7426;">Conversa inicial</p>
+        <h2 class="title title-md" style="margin:0.6rem 0 0.7rem;">Agende uma consulta exclusiva</h2>
+        <p style="color:#6a665c;max-width:620px;">Compartilhe seu objetivo e entraremos em contato para desenhar a melhor estrategia para seu projeto.</p>
+        <form id="leadForm" class="contact-wrap">
+          <div class="field">
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" name="nome" required>
+          </div>
+          <div class="field">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div class="field">
+            <label for="telefone">Telefone</label>
+            <input type="tel" id="telefone" name="telefone" required>
+          </div>
+          <div class="field">
+            <label for="tipo">Tipo de projeto</label>
+            <input type="text" id="tipo" name="tipo" placeholder="Residencial, comercial ou retrofit">
+          </div>
+          <div class="field" style="grid-column:1 / -1;">
+            <label for="mensagem">Mensagem</label>
+            <textarea id="mensagem" name="mensagem" required></textarea>
+          </div>
+          <div class="form-actions">
+            <div class="form-feedback" id="formFeedback" aria-live="polite"></div>
+            <div style="display:flex; gap:0.7rem; flex-wrap:wrap;">
+              <a class="btn btn-ghost" href="https://wa.me/5511999999999?text=Ol%C3%A1%2C%20quero%20agendar%20uma%20consulta%20com%20o%20Studio%20Aura." target="_blank" rel="noopener noreferrer">WhatsApp</a>
+              <button class="btn btn-primary" type="submit">Enviar mensagem</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <span class="brand">Studio <span>Aura</span></span>
+      <small>&copy; 2026 Studio Aura. Design de interiores de alto padrao.</small>
+    </div>
+  </footer>
+
+  <script src="src/js/main.js" defer></script>
+</body>
+</html>
